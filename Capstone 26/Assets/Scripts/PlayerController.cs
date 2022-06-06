@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //public Animator animator;
+    public Animator animator;
 
-    public float moveSpeed = 5f;
+    public float moveSpeed;
     float move;
 
     void Start()
     {
-       // animator = GetComponent<Animator>();
+      animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -25,5 +25,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.rotation = -move > 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
         }
+        animator.SetBool("walk", move != 0);
     }
+
+    
 }
