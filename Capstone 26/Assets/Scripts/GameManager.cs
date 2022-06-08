@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 0;
+
     }
 
     // Update is called once per frame
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
     public void Daur()
     {
         ResumeGame();
-        SceneManager.LoadScene("Daur sampah");
+        SceneManager.LoadScene("3. Daur sampah");
     }
 
     public void ResetScore()

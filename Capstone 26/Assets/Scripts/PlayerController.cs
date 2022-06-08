@@ -19,13 +19,12 @@ public class PlayerController : MonoBehaviour
         move = Input.GetAxisRaw("Horizontal");
         transform.position += new Vector3(move, 0, 0) * Time.deltaTime * moveSpeed;
 
-        //animator.SetFloat("Speed", Mathf.Abs(move));
+        animator.SetFloat("Speed", Mathf.Abs(move));
 
         if (!Mathf.Approximately(0, move))
         {
             transform.rotation = -move > 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
         }
-        animator.SetBool("walk", move != 0);
     }
 
     
