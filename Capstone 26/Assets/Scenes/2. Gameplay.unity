@@ -1906,7 +1906,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 547690600}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Daur
+        m_MethodName: LoadingScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2862,7 +2862,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: e064999922d520747befe70fdb9e4946, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25852ec25baba9246b05bb7fa41a9e2f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

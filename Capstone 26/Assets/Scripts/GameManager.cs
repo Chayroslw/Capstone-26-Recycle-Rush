@@ -67,11 +67,15 @@ public class GameManager : MonoBehaviour
         ResumeGame();
         SceneManager.LoadScene("2. Gameplay");
     }
-
+    public void LoadingScreen()
+    {
+        ResumeGame();
+        SceneManager.LoadScene("Loading Screen");
+    }
     public void Daur()
     {
         ResumeGame();
-        SceneManager.LoadScene("3. Daur sampah");
+        SceneManager.LoadScene("3. Daur Sampah");
     }
 
     public void ResetScore()

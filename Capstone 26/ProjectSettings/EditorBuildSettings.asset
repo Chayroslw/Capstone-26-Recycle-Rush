@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2. Gameplay.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Loading Screen.unity
+    guid: 34da97b5b75a9d9469e07acada9cc659
+  - enabled: 1
     path: Assets/Scenes/3. Daur sampah.unity
     guid: 4bbd8fba76c56f1489fae6f8681a7918
   m_configObjects: {}
