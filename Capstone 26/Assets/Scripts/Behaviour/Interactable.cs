@@ -2,15 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class Interactable : MonoBehaviour
 {
     public bool isInRange = false;
     public UnityEvent interactAction;
+    float posx;
+    public float posy = -4.1f;
+    Scene scene;
+    string sceneName;
 
     void Start()
     {
-        
+        scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+
+        if (sceneName == "2c. Gameplay Pantai")
+        {
+            posx = Random.Range(-34f, 42f);
+            Vector3 pos = new Vector3(posx, posy, transform.position.z);
+            transform.position = pos;
+        }
+        else
+        {
+            posx = Random.Range(-42f, 42f);
+            Vector3 pos = new Vector3(posx, posy, transform.position.z);
+            transform.position = pos;
+        }
     }
 
     void Update()

@@ -9,12 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/1. Main Menu.unity
     guid: 88f6f07e142b6684fab30c1e328d3417
   - enabled: 1
-    path: Assets/Scenes/2. Gameplay.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/2a. Gameplay Taman.unity
+    guid: 30e64fdd5945a7a4f8895ef0684678f8
   - enabled: 1
-    path: Assets/Scenes/Loading Screen.unity
-    guid: 34da97b5b75a9d9469e07acada9cc659
+    path: Assets/Scenes/2b. Gameplay Gunung.unity
+    guid: 281dacc6d4e5f6a46af726bb879c0ea4
+  - enabled: 1
+    path: Assets/Scenes/2c. Gameplay Pantai.unity
+    guid: 46a5cc0c3b55b3445938376772504cf9
   - enabled: 1
     path: Assets/Scenes/3. Daur sampah.unity
     guid: 4bbd8fba76c56f1489fae6f8681a7918
+  - enabled: 1
+    path: Assets/Scenes/Loading Screen.unity
+    guid: 8101dcdaf55b90a408529db289ddc934
   m_configObjects: {}
