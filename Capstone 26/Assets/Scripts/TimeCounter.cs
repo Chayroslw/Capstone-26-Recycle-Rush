@@ -5,9 +5,15 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 public class TimeCounter : MonoBehaviour
 {
+    public static GameObject instance;
     [Header("Main Settings")]
-    public float TimerValue;
     public Text TextTimer;
+    public float TimerValue;
+
+    public bool isSpawnPowerUp;
+
+    public GameObject[] powerUp;
+
 
     [Header("Condition")]
     public UnityEvent TimerFinishEvent;
@@ -34,8 +40,33 @@ public class TimeCounter : MonoBehaviour
 
     }
 
+    public void Freeze()
+    {
+        StartCoroutine("delay");
+    }
 
+    IEnumerator delay()
+    {
+        Time.timeScale = 0.1f;
+        yield return new WaitForSecondsRealtime(5);
+        Time.timeScale = 1f;
+    }
 
+    public void AddTime()
+    {
+        TimerValue += 5;
+
+    }
+
+    public IEnumerator SpawnPowerUp()
+    {
+        isSpawnPowerUp = true;
+        Debug.Log("Power Up");
+        int rand = Random.Range(0, powerUp.Length);
+        Instantiate(powerUp[rand], new Vector3(Random.Range(-5f, 5f), -4, 0), Quaternion.identity);
+        yield return new WaitForSeconds(1);
+        isSpawnPowerUp = false;
+    }
 
     void DisplayTime(float timeToDisplay)
     {
@@ -52,5 +83,11 @@ public class TimeCounter : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         TextTimer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        if (seconds % 20 == 0 && !isSpawnPowerUp)
+        {
+            StartCoroutine("SpawnPowerUp");
+        }
+
     }
 }

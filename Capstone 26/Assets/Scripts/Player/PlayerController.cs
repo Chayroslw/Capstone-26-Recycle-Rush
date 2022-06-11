@@ -6,7 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     public Animator animator;
 
-    public float moveSpeed;
+   
+    private float moveSpeed;
+    public float normalSpeed;
+    public float speedWhenFreeze;
     float move;
 
     void Start()
@@ -24,6 +27,15 @@ public class PlayerController : MonoBehaviour
         if (!Mathf.Approximately(0, move))
         {
             transform.rotation = -move > 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
+        }
+
+        if (Time.timeScale == 1.0)
+        {
+            moveSpeed = normalSpeed;
+        }
+        else if (Time.timeScale != 1.0)
+        {
+            moveSpeed = speedWhenFreeze;
         }
     }
 
