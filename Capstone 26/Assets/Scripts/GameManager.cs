@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         ResumeGame();
         SceneManager.LoadScene("1. Main Menu");
     }
+    public void Retry()
+    {
+        ResumeGame();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
     public void StartLevelaTaman()
     {

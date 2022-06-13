@@ -303,25 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf9b33adadd89c1438da7b6e345cac29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
-  scoreSampah1: 0
-  scoreSampah2: 0
-  scoreSampah3: 0
-  scoreSampah4: 0
-  finishLv: {fileID: 0}
-  sampah1: {fileID: 0}
-  sampah2: {fileID: 0}
-  sampah3: {fileID: 0}
-  sampah4: {fileID: 0}
-  scoreSampah1Txt: {fileID: 0}
-  scoreSampah2Txt: {fileID: 0}
-  scoreSampah3Txt: {fileID: 0}
-  scoreSampah4Txt: {fileID: 0}
-  scoreTxt: {fileID: 0}
-  totalSampah1Txt: {fileID: 0}
-  totalSampah2Txt: {fileID: 0}
-  totalSampah3Txt: {fileID: 0}
-  totalSampah4Txt: {fileID: 0}
+  PlayerPrefab: {fileID: 0}
 --- !u!4 &465346232
 Transform:
   m_ObjectHideFlags: 0
@@ -393,12 +375,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: 0b02420205537ad419a6dfd43109a1af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2052cec27ef44a84595cd2a1a448cb28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 48.017776, y: 27.009998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -755,10 +737,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1318520698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd23187adef9c0489c9dfe3f6ade637, type: 3}
+  m_Script: {fileID: 11500000, guid: 582c8f03e7c941744a5e5b867937231c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FillSpeed: 0.2
+  FillSpeed: 0.5
   Preparing: {fileID: 1448897871}
   ClickToContinue: {fileID: 1712828074}
 --- !u!1 &1448249499
@@ -1425,7 +1407,7 @@ Animator:
   m_GameObject: {fileID: 2083827320}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4246c677942151149bc16920655e7ea2, type: 2}
+  m_Controller: {fileID: 9100000, guid: df7db4a3b0553364da219dd1c7905e8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

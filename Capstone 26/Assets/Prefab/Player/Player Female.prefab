@@ -277,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   normalSpeed: 5
-  speedWhenFreeze: 5
+  speedWhenFreeze: 50
 --- !u!95 &8847947312782789074
 Animator:
   serializedVersion: 3

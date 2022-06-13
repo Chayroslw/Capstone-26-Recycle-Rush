@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 public class TimeCounter : MonoBehaviour
 {
-    public static GameObject instance;
+    public static GameManager instance;
     [Header("Main Settings")]
     public Text TextTimer;
     public float TimerValue;
@@ -48,7 +48,7 @@ public class TimeCounter : MonoBehaviour
     IEnumerator delay()
     {
         Time.timeScale = 0.1f;
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(3);
         Time.timeScale = 1f;
     }
 

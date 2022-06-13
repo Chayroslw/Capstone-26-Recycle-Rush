@@ -44,6 +44,7 @@ public class GameData : MonoBehaviour
         {
             Destroy(this);
         }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void ResetScore()
