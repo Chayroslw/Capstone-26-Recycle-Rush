@@ -13,7 +13,6 @@ public class Interactable : MonoBehaviour
     Scene scene;
     string sceneName;
 
-   
     void Start()
     {
         scene = SceneManager.GetActiveScene();
@@ -42,6 +41,7 @@ public class Interactable : MonoBehaviour
                 interactAction.Invoke();
                 Destroy(gameObject);
                 Debug.Log("Sampah dipungut");
+                SoundManager.Instance.InteractSfx();
             }
         }
     }

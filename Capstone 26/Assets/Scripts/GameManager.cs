@@ -14,11 +14,21 @@ public class GameManager : MonoBehaviour
     {
         scene = SceneManager.GetActiveScene();
         sceneName = scene.name;
-        if (sceneName == "2a. Gameplay Taman" || sceneName == "2b. Gameplay Gunung" || sceneName == "2c. Gameplay Pantai")
+        if (sceneName == "1. Main Menu")
         {
+            SoundManager.Instance.MainMenuBgm();
+        }
+        else if (sceneName == "2a. Gameplay Taman" || sceneName == "2b. Gameplay Gunung" || sceneName == "2c. Gameplay Pantai")
+        {
+            SoundManager.Instance.GameplayBgm();
             PlayerPrefab = GameData.instance.playerChar;
             spawnChar();
         }
+        else if (sceneName == "3. Daur sampah")
+        {
+            SoundManager.Instance.DaurBgm();
+        }
+        ResumeGame();
     }
 
     public void PauseGame()

@@ -4,42 +4,70 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-   public static SoundManager Instance;
+    public static SoundManager Instance;
 
-   [SerializeField] private AudioSource _musicSource, _effectSource;
+    [SerializeField] private AudioSource _mainMenuBgm, _gameBgm, _daurBgm, _interactSfx, _buttonSfx, _winSfx, _loseSfx, _effectSource;
 
-    [Header("Sound Sfx")]
-    public AudioSource button;
-    public AudioSource lose;
-    public AudioSource pickUp;
-    private void Awake() {
-    if (Instance == null)
+    private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-    else
+
+    public void MainMenuBgm()
     {
-        Destroy(gameObject);
+        _mainMenuBgm.Play();
+        _gameBgm.Stop();
+        _daurBgm.Stop();
     }
-   }
+    public void GameplayBgm()
+    {
+        _mainMenuBgm.Stop();
+        _gameBgm.Play();
+        _daurBgm.Stop();
+    }
+    public void DaurBgm()
+    {
+        _mainMenuBgm.Stop();
+        _gameBgm.Stop();
+        _daurBgm.Play();
+    }
+
+    public void StopBgm()
+    {
+        _mainMenuBgm.Stop();
+        _gameBgm.Stop();
+        _daurBgm.Stop();
+    }
 
     public void PlaySound(AudioClip clip){
         _effectSource.PlayOneShot(clip);
     }
 
-    public void ButtonSFX()
+    public void BtnSfx()
     {
-        button.Play();
+        _buttonSfx.Play();
     }
 
-    public void LoseSFX()
+    public void InteractSfx()
     {
-        lose.Play();
+        _interactSfx.Play();
     }
 
-    public void PickUpSFX()
+    public void WinSfx()
     {
-        pickUp.Play();
+        _winSfx.Play();
+    }
+
+    public void LoseSfx()
+    {
+        _loseSfx.Play();
     }
 }

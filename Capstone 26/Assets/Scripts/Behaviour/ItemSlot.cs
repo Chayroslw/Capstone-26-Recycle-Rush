@@ -8,7 +8,6 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
     [SerializeField] private AudioClip _clip;
 
-    
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("OnDrop");
@@ -21,5 +20,4 @@ public class ItemSlot : MonoBehaviour, IDropHandler
     
    
     }
-
 }

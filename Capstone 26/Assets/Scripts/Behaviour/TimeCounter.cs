@@ -9,35 +9,62 @@ public class TimeCounter : MonoBehaviour
     [Header("Main Settings")]
     public Text TextTimer;
     public float TimerValue;
+    int score;
 
     public bool isSpawnPowerUp;
+    public bool FreezeTimer = false;
 
     public GameObject[] powerUp;
 
+    [SerializeField] private AudioClip _win;
+    [SerializeField] private AudioClip _lose;
+
+    bool played = false;
 
     [Header("Condition")]
     public UnityEvent TimerFinishEvent;
+    public UnityEvent TimerFinishWinEvent;
 
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (TimerValue > 0)
+        score = GameData.score;
+        if (TimerValue > 0 && !FreezeTimer)
         {
             TimerValue -= Time.deltaTime;
-        }
-        else
+        } 
+        else if (TimerValue > 0 && FreezeTimer)
         {
-            TimerValue = 0;
+            return;
+        }
+        else if (TimerValue < 0 && score > 0)
+        {
+            if (!played)
+            {
+                SoundManager.Instance.PlaySound(_win);
+                played = true;
+            }
+            else
+                return;
+            SoundManager.Instance.StopBgm();
+            TimerFinishWinEvent.Invoke();
+        }
+        else if (TimerValue < 0 && score < 1)
+        {
+            if (!played)
+            {
+                SoundManager.Instance.PlaySound(_lose);
+                played = true;
+            }
+            else
+                return;
+            SoundManager.Instance.StopBgm();
             TimerFinishEvent.Invoke();
         }
         DisplayTime(TimerValue);
-
-
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            TimerValue = 1;
+        }
     }
 
     public void Freeze()
@@ -47,9 +74,9 @@ public class TimeCounter : MonoBehaviour
 
     IEnumerator delay()
     {
-        Time.timeScale = 0.1f;
+        FreezeTimer = true;
         yield return new WaitForSecondsRealtime(3);
-        Time.timeScale = 1f;
+        FreezeTimer = false;
     }
 
     public void AddTime()
