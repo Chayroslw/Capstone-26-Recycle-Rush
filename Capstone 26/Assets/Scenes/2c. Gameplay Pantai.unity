@@ -191,19 +191,47 @@ PrefabInstance:
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai2Kantong
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -221,19 +249,47 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai6Sterofoam
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
@@ -359,19 +415,47 @@ PrefabInstance:
       value: 3-Penyaring
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai3Penyaring
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -467,6 +551,18 @@ MonoBehaviour:
       - m_Target: {fileID: 547690600}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: BackToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -597,19 +693,47 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai6Sterofoam
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
@@ -1312,16 +1436,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai4Sedotan
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: m_RootOrder
@@ -1832,8 +1984,8 @@ MonoBehaviour:
   TimerValue: 45
   isSpawnPowerUp: 0
   powerUp:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1143402213}
+  - {fileID: 906237205}
   TimerFinishEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1852,6 +2004,18 @@ MonoBehaviour:
       - m_Target: {fileID: 547690600}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: LoseSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2025,6 +2189,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2319,16 +2495,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai5Buah
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: m_RootOrder
@@ -3111,6 +3315,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &815063245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3380,19 +3596,47 @@ PrefabInstance:
       value: 3-Penyaring (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai3Penyaring
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3730,6 +3974,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 547690600}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Retry
@@ -3801,7 +4057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1593035740752757624, guid: 0f6f22ff5743cd74dbe940f72210213e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.83
+      value: -20.83
       objectReference: {fileID: 0}
     - target: {fileID: 1593035740752757624, guid: 0f6f22ff5743cd74dbe940f72210213e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3868,6 +4124,11 @@ PrefabInstance:
 --- !u!4 &906237204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1593035740752757624, guid: 0f6f22ff5743cd74dbe940f72210213e, type: 3}
+  m_PrefabInstance: {fileID: 906237203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &906237205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1593035740752757604, guid: 0f6f22ff5743cd74dbe940f72210213e, type: 3}
   m_PrefabInstance: {fileID: 906237203}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &944779668
@@ -4003,16 +4264,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai4Sedotan
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: m_RootOrder
@@ -4234,19 +4523,47 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai6Sterofoam
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 012e4b925ff07c84797f8171aa9eb3f8, type: 3}
@@ -4663,7 +4980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 753303776515814785, guid: b3a613f4b07c14f4b8312988afbf5578, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.83
+      value: -20.83
       objectReference: {fileID: 0}
     - target: {fileID: 753303776515814785, guid: b3a613f4b07c14f4b8312988afbf5578, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4736,6 +5053,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 753303776515814785, guid: b3a613f4b07c14f4b8312988afbf5578, type: 3}
   m_PrefabInstance: {fileID: 1143402211}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1143402213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 753303776515814813, guid: b3a613f4b07c14f4b8312988afbf5578, type: 3}
+  m_PrefabInstance: {fileID: 1143402211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1159219735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4804,19 +5126,47 @@ PrefabInstance:
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai2Kantong
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4920,6 +5270,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1162167949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4970,16 +5332,44 @@ PrefabInstance:
       value: 1-Gelas Plastik
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai1Gelas
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616887, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: m_RootOrder
@@ -5196,6 +5586,18 @@ MonoBehaviour:
       - m_Target: {fileID: 547690602}
         m_TargetAssemblyTypeName: ExitScript, Assembly-CSharp
         m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5635,6 +6037,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1352552393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5995,16 +6409,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai5Buah
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: m_RootOrder
@@ -6153,11 +6595,11 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 547690600}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: StartLevelaTaman
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6273,19 +6715,47 @@ PrefabInstance:
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai2Kantong
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587646056418420172, guid: dc91ad2b0170bea4b95596d95daa0f97, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6303,16 +6773,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai4Sedotan
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: m_RootOrder
@@ -6455,6 +6953,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6748,6 +7258,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524213830}
   m_CullTransparentMesh: 1
+--- !u!1 &1538829646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1538829648}
+  - component: {fileID: 1538829647}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1538829647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538829646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86a4e898caab4e4e92e0373c8035c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicSource: {fileID: 0}
+  _effectSource: {fileID: 0}
+  button: {fileID: 2070478495}
+  lose: {fileID: 1836320859}
+  pickUp: {fileID: 1734709894}
+--- !u!4 &1538829648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538829646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.3574, y: 0.98332906, z: -1.822685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2070478496}
+  - {fileID: 1836320860}
+  - {fileID: 1734709895}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1595475266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6986,7 +7547,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1047722957}
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1612387176}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -6996,7 +7569,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1612387176}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -7134,6 +7707,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7346,16 +7931,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai5Buah
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: ff044a5bf964ad341b4aaf6ce427947c, type: 3}
       propertyPath: m_RootOrder
@@ -7727,6 +8340,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725934656}
   m_CullTransparentMesh: 1
+--- !u!1 &1734709893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734709895}
+  - component: {fileID: 1734709894}
+  m_Layer: 0
+  m_Name: PickUpSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1734709894
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734709893}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8f1a7d1dd863ac044a07d9e8005a32b7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1734709895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734709893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538829648}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1739311360
 GameObject:
   m_ObjectHideFlags: 0
@@ -7814,6 +8554,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8091,6 +8843,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1836320858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1836320860}
+  - component: {fileID: 1836320859}
+  m_Layer: 0
+  m_Name: LoseSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1836320859
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836320858}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 886459055f7d6f5499e5dc1b81e7094b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1836320860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836320858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538829648}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1865781597
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,16 +9136,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 733785254}
     m_Modifications:
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai4Sedotan
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225223079914816152, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7225223079914816155, guid: 18e9d992427c0024b868c338603b73dd, type: 3}
       propertyPath: m_RootOrder
@@ -8417,9 +9324,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 547690600}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: PauseGame
+      - m_Target: {fileID: 1538829647}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8428,6 +9335,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1612387176}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1612387176}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -8491,16 +9410,44 @@ PrefabInstance:
       value: 1-Gelas Plastik (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai1Gelas
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616887, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: m_RootOrder
@@ -8640,16 +9587,44 @@ PrefabInstance:
       value: 1-Gelas Plastik (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai1Gelas
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6893215375229616884, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6893215375229616887, guid: 5c82f3a0ea8bf364a89b2dd1f05b1d8c, type: 3}
       propertyPath: m_RootOrder
@@ -9014,6 +9989,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033182741}
   m_CullTransparentMesh: 1
+--- !u!1 &2070478494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070478496}
+  - component: {fileID: 2070478495}
+  m_Layer: 0
+  m_Name: ButtonSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2070478495
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070478494}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9045981a032067a47b08b16556ea1a29, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2070478496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070478494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538829648}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2082087236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9161,19 +10263,47 @@ PrefabInstance:
       value: 3-Penyaring (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325365224}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1538829647}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddSampahPantai3Penyaring
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PickUpSFX
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIList3Pantai, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051577620426637104, guid: 609c23e8b8f9d724ea8910bc4698d3b9, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []

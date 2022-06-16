@@ -11,6 +11,7 @@ public class LevelLoader : MonoBehaviour
     private float targetProgress = 0;
     public GameObject Preparing;
     public GameObject ClickToContinue;
+    [SerializeField] private AudioClip _clip;
 
     private void Awake()
     {
@@ -32,6 +33,7 @@ public class LevelLoader : MonoBehaviour
             {
                 Preparing.SetActive(false);
                 ClickToContinue.SetActive(true);
+                SoundManager.Instance.PlaySound(_clip);
             }
         }
     }

@@ -8,7 +8,11 @@ public class SoundManager : MonoBehaviour
 
    [SerializeField] private AudioSource _musicSource, _effectSource;
 
-   private void Awake() {
+    [Header("Sound Sfx")]
+    public AudioSource button;
+    public AudioSource lose;
+    public AudioSource pickUp;
+    private void Awake() {
     if (Instance == null)
     {
         Instance = this;
@@ -24,4 +28,18 @@ public class SoundManager : MonoBehaviour
         _effectSource.PlayOneShot(clip);
     }
 
+    public void ButtonSFX()
+    {
+        button.Play();
+    }
+
+    public void LoseSFX()
+    {
+        lose.Play();
+    }
+
+    public void PickUpSFX()
+    {
+        pickUp.Play();
+    }
 }
