@@ -61,10 +61,6 @@ public class TimeCounter : MonoBehaviour
             TimerFinishEvent.Invoke();
         }
         DisplayTime(TimerValue);
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            TimerValue = 1;
-        }
     }
 
     public void Freeze()
