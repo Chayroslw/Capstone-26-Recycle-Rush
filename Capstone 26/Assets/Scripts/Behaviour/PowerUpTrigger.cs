@@ -10,6 +10,7 @@ public class PowerUpTrigger : MonoBehaviour
     public string TagObject;
     public UnityEvent TriggerEvent;
     public bool DestroyTrigger;
+    public AudioClip _freezeSfx, _addTimerSfx;
 
     // Start is called before the first frame update
     void Start()
@@ -36,5 +37,14 @@ public class PowerUpTrigger : MonoBehaviour
             TriggerEvent.Invoke();
             Destroy(gameObject);
         }
+    }
+
+    public void PowerUpFreezeSfx()
+    {
+        SoundManager.Instance.PlaySound(_freezeSfx);
+    }
+    public void PowerUpAddTimerSfx()
+    {
+        SoundManager.Instance.PlaySound(_addTimerSfx);
     }
 }

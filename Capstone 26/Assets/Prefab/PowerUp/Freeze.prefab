@@ -113,4 +113,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagObject: Player
-  namePowerUp: Freeze
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DestroyTrigger: 0
+  _freezeSfx: {fileID: 8300000, guid: 208587543b8d86e4aaaa01971bc48bf1, type: 3}
+  _addTimerSfx: {fileID: 8300000, guid: adae189f80708114cb7160586a09496a, type: 3}

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class UIList1Taman : MonoBehaviour
 {
+    int score, bunga, kotak, lauk, plastik;
+
     public Text scoreTxt;
     [Header("List Taman")]
     public Text score1BungaTxt;
@@ -23,48 +25,55 @@ public class UIList1Taman : MonoBehaviour
 
     private void Start()
     {
-        score1BungaTxt.text = GameData.score1Bunga.ToString();
-        score2KotakTxt.text = GameData.score2Kotak.ToString();
-        score3LaukTxt.text = GameData.score3Lauk.ToString();
-        score4PlastikTxt.text = GameData.score4Plastik.ToString();
+        score1BungaTxt.text = bunga.ToString();
+        score2KotakTxt.text = kotak.ToString();
+        score3LaukTxt.text = lauk.ToString();
+        score4PlastikTxt.text = plastik.ToString();
     }
 
     // Function Taman
     public void ScoreResultTaman()
     {
-        GameManager.instance.PauseGame();
-        scoreTxt.text = GameData.score.ToString();
-        score1BungaTxt.text = GameData.score1Bunga.ToString();
-        score2KotakTxt.text = GameData.score2Kotak.ToString();
-        score3LaukTxt.text = GameData.score3Lauk.ToString();
-        score4PlastikTxt.text = GameData.score4Plastik.ToString();
+        scoreTxt.text = score.ToString();
+        tamanTotal1BungaTxt.text = bunga.ToString();
+        tamanTotal2KotakTxt.text = kotak.ToString();
+        tamanTotal3LaukTxt.text = lauk.ToString();
+        tamanTotal4PlastikTxt.text = plastik.ToString();
     }
     public void AddSampahTaman1Bunga()
     {
+        score++;
+        bunga++;
         GameData.score++;
         GameData.score1Bunga++;
-        score1BungaTxt.text = GameData.score1Bunga.ToString();
+        score1BungaTxt.text = bunga.ToString();
         EnableWin();
     }
     public void AddSampahTaman2Kotak()
     {
+        score++;
+        kotak++;
         GameData.score++;
         GameData.score2Kotak++;
-        score2KotakTxt.text = GameData.score2Kotak.ToString();
+        score2KotakTxt.text = kotak.ToString();
         EnableWin();
     }
     public void AddSampahTaman3Lauk()
     {
+        score++;
+        lauk++;
         GameData.score++;
         GameData.score3Lauk++;
-        score3LaukTxt.text = GameData.score3Lauk.ToString();
+        score3LaukTxt.text = lauk.ToString();
         EnableWin();
     }
     public void AddSampahTaman4Plastik()
     {
+        score++;
+        plastik++;
         GameData.score++;
         GameData.score4Plastik++;
-        score4PlastikTxt.text = GameData.score4Plastik.ToString();
+        score4PlastikTxt.text = plastik.ToString();
         EnableWin();
     }
     public void EnableWin()
@@ -72,6 +81,7 @@ public class UIList1Taman : MonoBehaviour
         if (!finishLv.activeInHierarchy)
         {
             finishLv.SetActive(true);
+            TimeCounter.win = true;
         }
         else
         {

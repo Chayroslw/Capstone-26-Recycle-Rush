@@ -6,7 +6,7 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager Instance;
 
-    [SerializeField] private AudioSource _mainMenuBgm, _gameBgm, _daurBgm, _interactSfx, _buttonSfx, _winSfx, _loseSfx, _effectSource;
+    [SerializeField] private AudioSource _mainMenuBgm, _gameBgm, _daurBgm, _interactSfx, _buttonSfx, _winSfx, _PowerUpSfx, _effectSource;
 
     private void Awake()
     {
@@ -66,8 +66,8 @@ public class SoundManager : MonoBehaviour
         _winSfx.Play();
     }
 
-    public void LoseSfx()
+    public void PowerUpSfx()
     {
-        _loseSfx.Play();
+        _PowerUpSfx.Play();
     }
 }

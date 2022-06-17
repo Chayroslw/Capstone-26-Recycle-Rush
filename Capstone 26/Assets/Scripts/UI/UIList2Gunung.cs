@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class UIList2Gunung : MonoBehaviour
 {
+    int score, botol, kayu, detergen, kotoran, ranting = 0;
+
     public Text scoreTxt;
     [Header("List Gunung")]
     public Text score1BotolTxt;
@@ -25,57 +27,66 @@ public class UIList2Gunung : MonoBehaviour
 
     private void Start()
     {
-        score1BotolTxt.text = GameData.score1Botol.ToString();
-        score2KayuTxt.text = GameData.score2Kayu.ToString();
-        score3KemDetergenTxt.text = GameData.score3KemDetergen.ToString();
-        score4KotoranTxt.text = GameData.score4Kotoran.ToString();
-        score5RantingTxt.text = GameData.score5Ranting.ToString();
+        score1BotolTxt.text = botol.ToString();
+        score2KayuTxt.text = kayu.ToString();
+        score3KemDetergenTxt.text = detergen.ToString();
+        score4KotoranTxt.text = kotoran.ToString();
+        score5RantingTxt.text = ranting.ToString();
     }
     
     // Function Gunung
     public void ScoreResultGunung()
     {
-        GameManager.instance.PauseGame();
-        scoreTxt.text = GameData.score.ToString();
-        score1BotolTxt.text = GameData.score1Botol.ToString();
-        score2KayuTxt.text = GameData.score2Kayu.ToString();
-        score3KemDetergenTxt.text = GameData.score3KemDetergen.ToString();
-        score4KotoranTxt.text = GameData.score4Kotoran.ToString();
-        score5RantingTxt.text = GameData.score5Ranting.ToString();
+        scoreTxt.text = score.ToString();
+        gunungTotal1BotolTxt.text = botol.ToString();
+        gunungTotal2KayuTxt.text = kayu.ToString();
+        gunungTotal3DetergenTxt.text = detergen.ToString();
+        gunungTotal4KotoranTxt.text = kotoran.ToString();
+        gunungTotal5RantingTxt.text = ranting.ToString();
     }
     public void AddSampahGunung1Botol()
     {
+        score++;
+        botol++;
         GameData.score++;
         GameData.score1Botol++;
-        score1BotolTxt.text = GameData.score1Botol.ToString();
+        score1BotolTxt.text = botol.ToString();
         EnableWin();
     }
     public void AddSampahGunung2Kayu()
     {
+        score++;
+        kayu++;
         GameData.score++;
         GameData.score2Kayu++;
-        score2KayuTxt.text = GameData.score2Kayu.ToString();
+        score2KayuTxt.text = kayu.ToString();
         EnableWin();
     }
     public void AddSampahGunung3Detergen()
     {
+        score++;
+        detergen++;
         GameData.score++;
         GameData.score3KemDetergen++;
-        score3KemDetergenTxt.text = GameData.score3KemDetergen.ToString();
+        score3KemDetergenTxt.text = detergen.ToString();
         EnableWin();
     }
     public void AddSampahGunung4Kotoran()
     {
+        score++;
+        kotoran++;
         GameData.score++;
         GameData.score4Kotoran++;
-        score4KotoranTxt.text = GameData.score4Kotoran.ToString();
+        score4KotoranTxt.text = kotoran.ToString();
         EnableWin();
     }
     public void AddSampahGunung5Ranting()
     {
+        score++;
+        ranting++;
         GameData.score++;
         GameData.score5Ranting++;
-        score5RantingTxt.text = GameData.score5Ranting.ToString();
+        score5RantingTxt.text = ranting.ToString();
         EnableWin();
     }
     public void EnableWin()
@@ -83,6 +94,7 @@ public class UIList2Gunung : MonoBehaviour
         if (!finishLv.activeInHierarchy)
         {
             finishLv.SetActive(true);
+            TimeCounter.win = true;
         }
         else
         {

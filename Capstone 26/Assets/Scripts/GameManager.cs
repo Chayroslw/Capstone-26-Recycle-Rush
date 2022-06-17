@@ -40,6 +40,11 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    public void Loading()
+    {
+        ResumeGame();
+        SceneManager.LoadScene("Loading Screen");
+    }
 
     public void BackToMenu()
     {

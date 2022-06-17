@@ -38,10 +38,10 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                SoundManager.Instance.InteractSfx();
                 interactAction.Invoke();
                 Destroy(gameObject);
                 Debug.Log("Sampah dipungut");
-                SoundManager.Instance.InteractSfx();
             }
         }
     }

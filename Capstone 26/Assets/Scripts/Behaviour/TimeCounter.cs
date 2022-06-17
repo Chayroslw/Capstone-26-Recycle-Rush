@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 public class TimeCounter : MonoBehaviour
 {
-    public static GameManager instance;
+    public static TimeCounter instance;
     [Header("Main Settings")]
     public Text TextTimer;
     public float TimerValue;
@@ -20,10 +20,16 @@ public class TimeCounter : MonoBehaviour
     [SerializeField] private AudioClip _lose;
 
     bool played = false;
+    public static bool win = false;
 
     [Header("Condition")]
     public UnityEvent TimerFinishEvent;
     public UnityEvent TimerFinishWinEvent;
+
+    private void Start()
+    {
+        win = false;
+    }
 
     void Update()
     {
@@ -36,7 +42,7 @@ public class TimeCounter : MonoBehaviour
         {
             return;
         }
-        else if (TimerValue < 0 && score > 0)
+        else if (TimerValue < 0 && win)
         {
             if (!played)
             {
@@ -48,7 +54,7 @@ public class TimeCounter : MonoBehaviour
             SoundManager.Instance.StopBgm();
             TimerFinishWinEvent.Invoke();
         }
-        else if (TimerValue < 0 && score < 1)
+        else if (TimerValue < 0 && !win)
         {
             if (!played)
             {
@@ -61,6 +67,12 @@ public class TimeCounter : MonoBehaviour
             TimerFinishEvent.Invoke();
         }
         DisplayTime(TimerValue);
+    }
+
+    public void PlayWinSfx()
+    {
+        SoundManager.Instance.PlaySound(_win);
+        SoundManager.Instance.StopBgm();
     }
 
     public void Freeze()
